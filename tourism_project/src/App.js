@@ -9,6 +9,7 @@ import North from './components/Front-End/shared/north/north';
 import South from './components/Front-End/shared/south/south';
 import East from './components/Front-End/shared/east/east';
 import West from './components/Front-End/shared/west/west';
+import AdminLogin from './components/Front-End/shared/admin-login';
 
 class App extends Component {
   state = {  }
@@ -23,6 +24,7 @@ class App extends Component {
             <Route path="/south" component={South} />
             <Route path="/east" component={East} />
             <Route path="/west" component={West} />
+            <Route path="/admin-login" component={AdminLogin} />
             <Route path="/page-not-found" component={PageNotFound} />
             <Route path="/" exact component={Landing} />
             <Redirect to="/page-not-found" />

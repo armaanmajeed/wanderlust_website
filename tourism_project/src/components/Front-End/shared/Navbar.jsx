@@ -17,7 +17,7 @@ const NavBar = () => {
                 <NavDropdown.Item><NavLink to="/east" style={{textDecoration: 'none'}}>East India</NavLink></NavDropdown.Item>
                 <NavDropdown.Item><NavLink to="/west" style={{textDecoration: 'none'}}>West India</NavLink></NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link><NavLink to="/admin" class="nav-items">Admin</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="/admin-login" class="nav-items">Admin</NavLink></Nav.Link>
             <Form inline>
                 <FormControl type="text" placeholder="Search" className="mr-sm-2" />
             </Form>

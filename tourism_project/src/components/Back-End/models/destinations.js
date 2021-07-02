@@ -10,14 +10,6 @@ const destinationSchema = new Schema({
   description : {
     type: String,
     required: true,
-  },
-  days : {
-    type: String,
-    required: true,
-  },
-  cost : {
-    type: String,
-    required: true,
   }
 });
 

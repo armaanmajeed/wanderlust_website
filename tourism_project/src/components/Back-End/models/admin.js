@@ -19,15 +19,6 @@ const adminSchema = new Schema({
     type: String,
     required: true,
     minLength: 8
-  },
-  DateofBirth : {
-      type: Date,
-      required: true,
-  },
-  MobileNumber : {
-      type: String,
-      required: true,
-      length: 10
   }
 });
 

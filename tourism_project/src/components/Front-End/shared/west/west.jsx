@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Card, CardGroup } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 import NavBar from "../Navbar";
 import "../style.css";
@@ -57,13 +57,13 @@ class West extends Component {
                   There is so much that is unique about Goa, with many visitors
                   finding the laid-back pace of life awesome.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/north"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -84,13 +84,13 @@ class West extends Component {
                   forests, green valleys, and sparkling rivers. Mahabaleshwar is
                   the perfect destination to relax in leisure.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/south"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -110,13 +110,13 @@ class West extends Component {
                   city, a blissful tangle of meandering lanes and glittering
                   bazaars.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/east"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
           </CardGroup>
@@ -138,13 +138,13 @@ class West extends Component {
                   oldest chapels and churches that enchant visitors with their
                   charming architecture and serenity.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/west"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -162,13 +162,13 @@ class West extends Component {
                   This small union territory sprawls over an area less than 500
                   sq. km, covered with tall, awesome trees and winding rivers.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/west"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -189,13 +189,13 @@ class West extends Component {
                   Buddhist Caves, Adi-Kadi Vav, and Jamia Masjid are places you
                   can visit within the fort.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/west"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
           </CardGroup>

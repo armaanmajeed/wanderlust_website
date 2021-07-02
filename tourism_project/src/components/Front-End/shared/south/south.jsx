@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Card, CardGroup } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 import NavBar from "../Navbar";
 import "../style.css";
@@ -54,13 +54,13 @@ class South extends Component {
                   places MG Road, Brigade Road, Commercial Street, Vidhana
                   Soudha, etc. In addition, Bengaluru has many lakes and parks.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/north"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   Read More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -79,13 +79,13 @@ class South extends Component {
                   most famous for Tamil classical music & dance, plus
                   Kapaleeshwarar Temple & colonial Fort St. George.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/south"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   Read More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -104,13 +104,13 @@ class South extends Component {
                   Tourism Department, the domestic tourist footfall in the city
                   was more than 23 million in 2017.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/east"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   Read More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
           </CardGroup>
@@ -131,13 +131,13 @@ class South extends Component {
                   and the fort of Golconda. There is a multitude of masjids,
                   temples, churches, and bazaars in the city.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/west"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   Read More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -158,13 +158,13 @@ class South extends Component {
                   an exclusive place for itself in the maritime history of
                   Kerala. This was once-prosperous trading and fishing center.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/west"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   Read More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -188,13 +188,13 @@ class South extends Component {
                   list. Mysore tourism is indeed a holiday idea that caters to
                   everyone.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/west"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   Read More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
           </CardGroup>

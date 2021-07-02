@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Card, CardGroup } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 import NavBar from "../Navbar";
 import "../style.css";
@@ -55,13 +55,13 @@ class East extends Component {
                   monks. Tawang is the place to go for monasteries, with the
                   Tawang Monastery being the most popular one.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/north"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -80,13 +80,13 @@ class East extends Component {
                   natural beauty, Shillong also acts as the gateway to
                   Meghalaya.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/south"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -106,13 +106,13 @@ class East extends Component {
                   thrives on contradictions and imposing spectacles; nothing is
                   commonplace in this city.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/east"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
           </CardGroup>
@@ -132,13 +132,13 @@ class East extends Component {
                   Bengal. Digha is a one-stop destination for families looking
                   forward to spending a pleasurable weekend.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/west"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -160,13 +160,13 @@ class East extends Component {
                   culture has always attracted travelers from all over the
                   world.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/west"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -184,13 +184,13 @@ class East extends Component {
                   majestic Kangchenjunga towers over this beautiful town, which
                   is the third highest mountain in the world.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/west"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
           </CardGroup>

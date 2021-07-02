@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Card, CardGroup } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 import NavBar from "../Navbar";
 import "../style.css";
@@ -51,13 +51,13 @@ class North extends Component {
                   are quite a few theories regarding the origin of the word
                   Shimla. Name originates from Shyamali Devi.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/north"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -73,13 +73,13 @@ class North extends Component {
                   Rishikesh is the land of spirituality, yoga, adventure, and
                   art.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/south"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -98,13 +98,13 @@ class North extends Component {
                   Sher-Ka-Danda. The majestic mountains and the lake's sparkling
                   waters add a considerable lot to the beauty of the town.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/east"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
           </CardGroup>
@@ -120,13 +120,13 @@ class North extends Component {
                   markets, from relaxing retreats to adventure activities, from
                   various sightseeing places to ancient temples.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/west"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -141,13 +141,13 @@ class North extends Component {
                   of the Golden Triangle, a popular tourist itinerary that takes
                   in some of India’s famed architectural highlights.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/west"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
 
@@ -163,13 +163,13 @@ class North extends Component {
                   rumbling beauty to the city landscape and one can almost hear
                   the sounds of the past echoing.
                 </Card.Text>
-                <NavLink
+                {/* <NavLink
                   to="/west"
                   class="btn btn-primary"
                   style={{ marginLeft: "31%" }}
                 >
                   View More
-                </NavLink>
+                </NavLink> */}
               </Card.Body>
             </Card>
           </CardGroup>
